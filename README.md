@@ -1,4 +1,4 @@
-# python_port_scanner
+# python port scanner
 Port scanning script built in python. 
 
 This program will list ports as they are scanned and then give you a final output of available ports. 
