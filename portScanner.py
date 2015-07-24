@@ -26,12 +26,10 @@ while attempt < upperRange:
         while 1==1:
                 end = time.time()
                 current = end-start
-                #print "time : %d " % current
                 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
                 s.settimeout(sessionTimeout)
                 try:
                         s.connect((target, attempt))
-                        #attempt=attempt+1
                         print "Port %d reachable" % attempt
                         if reached == "0":
                                 reached = str(attempt)
@@ -40,7 +38,7 @@ while attempt < upperRange:
                                 reached = reached+","+str(attempt)
                         break
                 except socket.error as e:
-                        #print "Error on connect: %s" % e
+                        
                         break
 
 
