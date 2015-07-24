@@ -1,9 +1,10 @@
 # python_port_scanner
-A simple port scanning script built in python. 
+Port scanning script built in python. 
 
-Adjust the timeout to increase speed for local networks or decrease the speed for remote networks. 
+This program will list ports as they are scanned and then give you a final output of available ports. 
 
-It will list ports as they are scanned and then it will give you a list of available ports. 
+-Adjust upper range of number of ports scanned by adjusting upperRange = 
+-Adjust timeout for better performance by adjusting sessionTimeout = 
+-Set target host by modifying target = 
 
-You can set the range of what you want to scan. 
 
